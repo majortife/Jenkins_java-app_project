@@ -127,8 +127,6 @@ pipeline {
     failure {
       echo "❌ Build ${env.BUILD_NUMBER} failed!"
     }
-    always {
-      cleanWs()
-    }
+ 
   }
 }
