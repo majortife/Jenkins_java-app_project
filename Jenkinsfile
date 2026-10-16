@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   environment {
-    IMAGE_NAME = "theshubhamgour/maven-jenkins-demo"
-    DOCKERHUB_CREDENTIALS = credentials('DockerHub')
+    IMAGE_NAME = "majortife/java-app"
+    DOCKERHUB_CREDENTIALS = credentials('Docker-access')
   }
 
   stages {
