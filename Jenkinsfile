@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     IMAGE_NAME = "majortife/java-app"
-    DOCKERHUB_CREDENTIALS = credentials('Docker-access')
+    DOCKERHUB_CREDENTIALS = credentials('Docker_access')
   }
 
   stages {
